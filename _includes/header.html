@@ -1,0 +1,9 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="{{ site.title }} logo">
+      {{ site.title | escape }}
+    </a>
+    {%- include nav.html -%}
+  </div>
+</header>

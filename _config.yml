@@ -1,0 +1,20 @@
+title: Your Articles
+description: Publish clean, fast articles on a free GitHub Pages site.
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Set your production URL later if you use a custom domain
+url: ""
+
+# Leave baseurl empty for user site (username.github.io). For project sites, set to "/<repo-name>"
+baseurl: ""
+
+# Navigation pages
+header_pages:
+  - about.md
+
+# Social links (optional)
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/" }
